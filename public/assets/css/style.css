@@ -1,0 +1,35 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.row-cols-1 .card {
+    height: 100%;
+}
+
+#aluno-container {
+    scroll-margin-top: 80px;
+}
+
+.carousel-img-r10 {
+    width: 100%;
+    object-fit: cover;
+    height: 420px;
+}
+
+@media (max-width: 767px) {
+    .carousel-img-r10 {
+        height: 260px;
+    }
+}
+
+@media (max-width: 575px) {
+    .carousel-img-r10 {
+        height: 190px;
+    }
+}
